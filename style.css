@@ -1,0 +1,17 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+#map{
+    width: 100%;
+   height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.react,.react2{
+    width: 100%;
+}
+@media(min-width: 768px){
+    .news-input{width: 50%}
+}
